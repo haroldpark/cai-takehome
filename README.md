@@ -15,5 +15,5 @@ node helpers.js
 node
 ```
 
-### The Output
+## Output
 ![Output](image.png)

@@ -61,7 +61,9 @@ const sendAverageNotifications = async () => {
     }
     return avgHighScore;
   } catch (error) {
-    console.log("There was an error ");
+    console.log(
+      `There was an error when trying to send average score notifications: ${error}`
+    );
   }
 };
 (async () => {
